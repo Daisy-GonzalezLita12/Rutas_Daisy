@@ -14,7 +14,7 @@ const productos = { bouns, pizza_ch, carne_fria, combo_pizza };
 <div class="container-sm">
     <br>
     <!-- Título de la sección de productos -->
-    <h3><center>------------------------------------ Productos destacados ----------------------------------</center></h3>
+    <h3><center>--------------------------------- Productos destacados -------------------------------</center></h3>
     <br>
     <div class="row">
         <!-- Primer producto: Bombas Pepperoni -->

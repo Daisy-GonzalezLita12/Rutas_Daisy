@@ -4,7 +4,7 @@
 <template>
   <!-- Estructura html -->
    <!-- Título de la página -->
-<h3 style="text-align: center;">ECLIPSES</h3> 
+<h3 style="text-align: center;"><b>ECLIPSES</b></h3> 
 <!-- Botón de "ver eclipses" -->
  <button class="btn">Ver eclipses</button>
  <br>

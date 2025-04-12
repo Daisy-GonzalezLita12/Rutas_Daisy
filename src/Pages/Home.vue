@@ -1,5 +1,5 @@
 <template>  
-    <h4 style="color:coral;text-align: center;">UNIDAD 3: "PROGRAMACIÓN DEL LADO DEL CLIENTE"</h4>
+    <h4 style="color:black;text-align: center;"><b>UNIDAD 3: "PROGRAMACIÓN DEL LADO DEL CLIENTE"</b></h4>
     <p style="text-align:left;">Bienvenido(a)</p>
     <p style="text-align: justify;">En este sitio se encuentran los trabajos realizados a lo largo de la unidad 3, 
         de la asignatura de Programación Web, realizados por la alumna Daisy Gonzalez Lita, con número de control 
@@ -15,7 +15,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://lenguajejs.com/vuejs/introduccion/primeros-pasos/vue-main.js-app.vue.png" class="d-block w-100" alt="...">
+      <img src="https://lenguajejs.com/vuejs/introduccion/que-es-vue/vuejs.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://theblackboxlab.com/wp-content/uploads/2021/05/v5.png" class="d-block w-100" alt="...">
