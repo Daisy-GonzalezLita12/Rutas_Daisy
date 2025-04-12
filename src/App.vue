@@ -1,30 +1,98 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app" >
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">UNIDAD 3</a>
+  <button class="navbar-toggler"  type="button"  data-bs-toggle="collapse"  
+  data-bs-target="#navbarNav" 
+  aria-controls="navbarNav" 
+  aria-expanded="false" 
+  aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"> 
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ">
+       <li class="nav-item active">
+        <a class="nav-link" href="#"><router-link to="/pagina_web_eclipses">Eclipse</router-link></a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cards
+      </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><router-link to="/card1">Card 1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"><router-link to="/card2">Card 2</router-link></a></li>
+          </ul>
+        </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><router-link to="/pagina_pizza">Pizzas</router-link></a>
+      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Condicionales
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><router-link to="/lista1">Lista 1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"><router-link to="/lista2">Lista 2</router-link></a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Horarios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><router-link to="/Horario1">Horario1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"><router-link to="/Horario2">Horario2</router-link></a></li>
+          </ul>
+        </li>
+               <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Props
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> <router-link to="/Padre1">Props 1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"> <router-link to="/Padre2">Props 2</router-link></a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Eventos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><router-link to="/eventos1">Eventos 1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"><router-link to="/eventos2">Eventos 2</router-link></a></li> 
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Calculadora
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><router-link to="/calculadoraV1">calculadora V1</router-link></a></li>
+            <li><a class="dropdown-item" href="#"><router-link to="/calculadoraV2">calculadora V2</router-link></a></li> 
+          </ul>
+          
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
+      </li>
+          </ul>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+</nav>
+    <router-view ></router-view>
+</div>
+</div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+a{
+  text-decoration: none
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
